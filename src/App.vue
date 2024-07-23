@@ -3,17 +3,45 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
- 
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
- 
-
-  <RouterView />
+  <div>
+    <RouterView />
+  </div>
 </template>
 
-<style scoped>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
 
+:root {
+  --dark-color: #0d0d0d;
+  --bright-color: #fff;
+  --cinzaescuro-color: #212121;
+  --azulnaval-color: #274360;
+  --rosaclaro-color: #e91e63;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--cinzaescuro-color);
+}
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: var(--rosaclaro-color);
+  border-radius: 10px;
+}
 </style>
