@@ -2,17 +2,16 @@
 </script>
 
 <template>
-  <main>
     <main>
       <section class="indexMain">
         <div class="title">
           <h1>Portal Hackaton</h1>
         </div>
         <div class="button">
-          <button><ion-icon name="arrow-down-outline"></ion-icon></button>
+          <a href="#indexGroup"><button><ion-icon name="arrow-down-outline"></ion-icon></button></a>
         </div>
       </section>
-      <section class="indexGroup">
+      <section id="indexGroup">
         <div class="titleGroup">
           <h2>Membros</h2>
         </div>
@@ -74,18 +73,9 @@
         </div>
       </section>
     </main>
-  </main>
 </template>
 
 <style scoped>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  border: 0;
-  padding: 0;
-  font-family: 'Raleway', sans-serif;
-}
-
 main {
   background-color: #161660;
 }
@@ -121,7 +111,7 @@ main .indexMain .button button ion-icon {
   font-size: 15px;
 }
 
-main .indexGroup {
+main #indexGroup {
   width: 100%;
   display: flex;
   align-items: center;
@@ -131,13 +121,13 @@ main .indexGroup {
   padding-bottom: 50px;
 }
 
-main .indexGroup .titleGroup {
+main #indexGroup .titleGroup {
   font-size: 2vw;
   color: #fff;
   border-bottom: 2px solid #ecec53;
 }
 
-main .indexGroup .allCards {
+main #indexGroup .allCards {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -146,7 +136,7 @@ main .indexGroup .allCards {
   flex-wrap: wrap;
 }
 
-main .indexGroup .cardMember {
+main #indexGroup .cardMember {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,7 +149,7 @@ main .indexGroup .cardMember {
   border-radius: 10px;
 }
 
-main .indexGroup .cardMember .buttonMember {
+main #indexGroup .cardMember .buttonMember {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,11 +161,11 @@ main .indexGroup .cardMember .buttonMember {
   border: 1.5px solid #0d0d0d;
 }
 
-main .indexGroup .cardMember .buttonMember:hover {
+main #indexGroup .cardMember .buttonMember:hover {
   transform: translateY(-2.5px);
 }
 
-main .indexGroup .cardMember .buttonMember ion-icon {
+main #indexGroup .cardMember .buttonMember ion-icon {
   color: #0d0d0d;
 }
 </style>
