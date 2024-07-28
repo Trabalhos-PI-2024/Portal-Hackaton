@@ -9,24 +9,24 @@ import { RouterLink, RouterView } from 'vue-router'
             <router-link to="/"><h1>Portal Hackaton</h1></router-link>
         </div>
      <div class="nav">
-      <RouterLink to="/davi">Davi</RouterLink>
-      <RouterLink to="/enzo">Enzo</RouterLink>
-      <RouterLink to="/gabriel">Gabriel</RouterLink>
-      <RouterLink to="/henrique">Henrique</RouterLink>
-      <RouterLink to="/larrisa">Larissa</RouterLink>
-      <RouterLink to="/murilo">Murilo</RouterLink>
+      <RouterLink to="/davi"><p>Davi</p></RouterLink>
+      <RouterLink to="/enzo"><p>Enzo</p></RouterLink>
+      <RouterLink to="/gabriel"><p>Gabriel</p></RouterLink>
+      <RouterLink to="/henrique"><p>Henrique</p></RouterLink>
+      <RouterLink to="/larrisa"><p>Larissa</p></RouterLink>
+      <RouterLink to="/murilo"><p>Murilo</p></RouterLink>
       </div>
     </header>
     <div class="mainPrincipal">
       <div class="redesSociais">
         <a href="https://github.com/henriquechepli"> <ion-icon name="logo-github"></ion-icon></a>
-        <a href="https://www.linkedin.com/in/henrique-de-morais-chepli-110906299/"
+        <a href="https://www.linkedin.com/in/henrique-chepli-110906299/"
           ><ion-icon name="logo-linkedin"></ion-icon
         ></a>
         <a href="https://www.instagram.com/hchepli/"><ion-icon name="logo-instagram"></ion-icon></a>
       </div>
       <div class="info">
-        <p>henriquemchepli@gmail.com</p>
+        <p>henriquechepli@gmail.com</p>
         <h1>Henrique Chepli</h1>
         <p>16 anos</p>
         <p>Instituto Federal Catarinense: Técnico em Informática</p>
@@ -139,6 +139,14 @@ import { RouterLink, RouterView } from 'vue-router'
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.main .header .nav p{
+  color: #fff;
+}
+
+.main .header .title h1{
+  color: #fff;
 }
 </style>
 
