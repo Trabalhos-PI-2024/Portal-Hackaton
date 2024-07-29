@@ -11,6 +11,11 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/Murilo',
+      name: 'Murilo',
+      component: () => import('../views/MuriloView.vue')
+    },
+    {
       path: '/davi',
       name: 'davi',
       component: () => import('../views/DaviView.vue')

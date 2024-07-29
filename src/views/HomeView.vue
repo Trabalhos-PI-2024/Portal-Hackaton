@@ -1,6 +1,5 @@
 <script setup>
 </script>
-
 <template>
     <main>
       <section class="indexMain">
