@@ -2,7 +2,7 @@
   <main>
     <div class="enzo">
       <div class="imagem">
-        <img src="" alt="Imagem Aqui">
+        <img src="../assets/img/enzo.jpeg" alt="Imagem Aqui">
       </div>
       <div class="info">
         <h1>Enzo Girardi</h1>
