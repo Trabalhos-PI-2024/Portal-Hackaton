@@ -11,9 +11,14 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/davi',
+      name: 'davi',
+      component: () => import('../views/DaviView.vue')
+    },
+    {
       path: '/henrique',
       name: 'henrique',
-      component: HenriqueView
+      component: () => import('../views/HenriqueView.vue')
     },
   ]
 })

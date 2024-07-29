@@ -167,6 +167,5 @@ main #indexGroup .cardMember .buttonMember:hover {
 
 main #indexGroup .cardMember .buttonMember ion-icon {
   color: #0d0d0d;
-}
 
 </style>
