@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/enzo"><p>Enzo</p></RouterLink>
       <RouterLink to="/gabriel"><p>Gabriel</p></RouterLink>
       <RouterLink to="/henrique"><p>Henrique</p></RouterLink>
-      <RouterLink to="/larrisa"><p>Larissa</p></RouterLink>
+      <RouterLink to="/larissa"><p>Larissa</p></RouterLink>
       <RouterLink to="/murilo"><p>Murilo</p></RouterLink>
       </div>
     </header>
@@ -34,7 +34,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
       <article class="article">
         <div class="imagem">
-          <img src="" alt="Imagem Aqui" />
+          <img src="../assets/img/henrique.jpg" alt="Imagem Aqui" />
         </div>
       </article>
     </div>
