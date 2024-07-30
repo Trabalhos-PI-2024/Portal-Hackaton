@@ -135,6 +135,13 @@ a {
   align-items: center;
 }
 
+.main .article .imagem img{
+  width: 500px;
+  border-radius: 50%;
+  border: 2px solid #ecec53;
+  height: 504px;
+}
+
 .main .header .nav p{
   color: #fff;
 }

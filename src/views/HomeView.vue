@@ -2,83 +2,96 @@
 </script>
 
 <template>
-    <main>
-      <section class="indexMain">
-        <div class="title">
-          <h1>Portal Hackaton</h1>
-        </div>
-        <div class="button">
-          <a href="#indexGroup"><button><ion-icon name="arrow-down-outline"></ion-icon></button></a>
-        </div>
-      </section>
-      <section id="indexGroup">
-        <div class="titleGroup">
-          <h2>Membros</h2>
-        </div>
-        <div class="allCards">
-          <div class="cardMember">
-            <div class="imgMember"></div>
-            <div class="infoMember">
-              <h4>Davi de Morais Bisewski</h4>
-            </div>
-            <div class="buttonMember">
-              <router-link to="/davi"><ion-icon name="enter-outline"></ion-icon></router-link>
-            </div>
+  <main>
+    <section class="indexMain">
+      <div class="title">
+        <h1>Portal Hackaton</h1>
+      </div>
+      <div class="button">
+        <a href="#indexGroup"><button><ion-icon name="arrow-down-outline"></ion-icon></button></a>
+      </div>
+    </section>
+    <section id="indexGroup">
+      <div class="titleGroup">
+        <h2>Membros</h2>
+      </div>
+      <div class="allCards">
+        <div class="cardMember">
+          <div class="imgMember">
+            <img src="../assets/img/davi.jpeg" alt="Imagem Aqui" />
           </div>
-          <div class="cardMember">
-            <div class="imgMember"></div>
-            <div class="infoMember">
-              <h4>Enzo Girardi</h4>
-            </div>
-            <div class="buttonMember">
-              <router-link to="/enzo"><ion-icon name="enter-outline"></ion-icon></router-link>
-            </div>
+          <div class="infoMember">
+            <h4>Davi de Morais Bisewski</h4>
           </div>
-          <div class="cardMember">
-            <div class="imgMember"></div>
-            <div class="infoMember">
-              <h4>Gabriel Henrick Martins Gomes</h4>
-            </div>
-            <div class="buttonMember">
-              <router-link to="/gabriel"><ion-icon name="enter-outline"></ion-icon></router-link>
-            </div>
-          </div>
-          <div class="cardMember">
-            <div class="imgMember"></div>
-            <div class="infoMember">
-              <h4>Henrique Chepli</h4>
-            </div>
-            <div class="buttonMember">
-              <router-link to="/henrique"><ion-icon name="enter-outline"></ion-icon></router-link>
-            </div>
-          </div>
-          <div class="cardMember">
-            <div class="imgMember"></div>
-            <div class="infoMember">
-              <h4>Larissa Lotin</h4>
-            </div>
-            <div class="buttonMember">
-              <router-link to="/larissa"><ion-icon name="enter-outline"></ion-icon></router-link>
-            </div>
-          </div>
-          <div class="cardMember">
-            <div class="imgMember"></div>
-            <div class="infoMember">
-              <h4>Murilo da Cruz Souza</h4>
-            </div>
-            <div class="buttonMember">
-              <router-link to="/murilo"><ion-icon name="enter-outline"></ion-icon></router-link>
-            </div>
+          <div class="buttonMember">
+            <router-link to="/davi"><ion-icon name="enter-outline"></ion-icon></router-link>
           </div>
         </div>
-      </section>
-    </main>
+        <div class="cardMember">
+          <div class="imgMember">
+            <img src="../assets/img/enzo.jpeg" alt="Imagem Aqui" />
+          </div>
+          <div class="infoMember">
+            <h4>Enzo Girardi</h4>
+          </div>
+          <div class="buttonMember">
+            <router-link to="/enzo"><ion-icon name="enter-outline"></ion-icon></router-link>
+          </div>
+        </div>
+        <div class="cardMember">
+          <div class="imgMember">
+            <img src="../assets/img/gb.jpeg" alt="Imagem Aqui" />
+          </div>
+          <div class="infoMember">
+            <h4>Gabriel Henrick Martins Gomes</h4>
+          </div>
+          <div class="buttonMember">
+            <router-link to="/gabriel"><ion-icon name="enter-outline"></ion-icon></router-link>
+          </div>
+        </div>
+        <div class="cardMember">
+          <div class="imgMember">
+            <img src="../assets/img/henrique.jpg" alt="Imagem Aqui" />
+          </div>
+          <div class="infoMember">
+            <h4>Henrique Chepli</h4>
+          </div>
+          <div class="buttonMember">
+            <router-link to="/henrique"><ion-icon name="enter-outline"></ion-icon></router-link>
+          </div>
+        </div>
+        <div class="cardMember">
+          <div class="imgMember">
+            <img src="../assets/img/lari.jpeg" alt="Imagem Aqui" />
+          </div>
+          <div class="infoMember">
+            <h4>Larissa Lotin</h4>
+          </div>
+          <div class="buttonMember">
+            <router-link to="/larissa"><ion-icon name="enter-outline"></ion-icon></router-link>
+          </div>
+        </div>
+        <div class="cardMember">
+          <div class="imgMember">
+            <img src="../assets/img/murilo.jpeg" alt="Imagem Aqui" />
+          </div>
+          <div class="infoMember">
+            <h4>Murilo da Cruz Souza</h4>
+          </div>
+          <div class="buttonMember">
+            <router-link to="/murilo"><ion-icon name="enter-outline"></ion-icon></router-link>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </template>
 
 <style scoped>
 main {
   background-color: #161660;
 }
+
 main .indexMain {
   width: 100%;
   display: flex;
@@ -91,7 +104,7 @@ main .indexMain {
 
 main .indexMain .title {
   font-size: 5vw;
-  color: #fff   ;
+  color: #fff;
 }
 
 main .indexMain .button button {
@@ -167,5 +180,11 @@ main #indexGroup .cardMember .buttonMember:hover {
 
 main #indexGroup .cardMember .buttonMember ion-icon {
   color: #0d0d0d;
+}
 
+main #indexGroup .cardMember .imgMember img{
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
 </style>

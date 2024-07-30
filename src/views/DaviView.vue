@@ -9,7 +9,7 @@
       <RouterLink to="/enzo"><p>Enzo</p></RouterLink>
       <RouterLink to="/gabriel"><p>Gabriel</p></RouterLink>
       <RouterLink to="/henrique"><p>Henrique</p></RouterLink>
-      <RouterLink to="/larrisa"><p>Larissa</p></RouterLink>
+      <RouterLink to="/larissa"><p>Larissa</p></RouterLink>
       <RouterLink to="/murilo"><p>Murilo</p></RouterLink>
       </div>
     </header>
@@ -23,7 +23,7 @@
       </div>
       <div class="info">
         <p>davimbisewski@gmail.com</p>
-        <h1>Dai Bisewski</h1>
+        <h1>Davi Bisewski</h1>
         <p>16 anos</p>
         <p>Instituto Federal Catarinense: Técnico em Informática</p>
         <p>Joinville - Santa Catarina</p>
