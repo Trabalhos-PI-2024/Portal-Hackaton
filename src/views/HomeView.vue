@@ -8,7 +8,7 @@
         <h1>Portal Hackaton</h1>
       </div>
       <div class="button">
-        <a href="#indexGroup"><button><ion-icon name="arrow-down-outline"></ion-icon></button></a>
+        <a href="#indexGroup"><p>Ver Membros</p></a>
       </div>
     </section>
     <section id="indexGroup">
@@ -24,7 +24,7 @@
             <h4>Davi de Morais Bisewski</h4>
           </div>
           <div class="buttonMember">
-            <router-link to="/davi"><ion-icon name="enter-outline"></ion-icon></router-link>
+            <router-link to="/davi"><p>Saiba Mais</p></router-link>
           </div>
         </div>
         <div class="cardMember">
@@ -35,7 +35,7 @@
             <h4>Enzo Girardi</h4>
           </div>
           <div class="buttonMember">
-            <router-link to="/enzo"><ion-icon name="enter-outline"></ion-icon></router-link>
+            <router-link to="/enzo"><p>Saiba Mais</p></router-link>
           </div>
         </div>
         <div class="cardMember">
@@ -46,7 +46,7 @@
             <h4>Gabriel Henrick Martins Gomes</h4>
           </div>
           <div class="buttonMember">
-            <router-link to="/gabriel"><ion-icon name="enter-outline"></ion-icon></router-link>
+            <router-link to="/gabriel"><p>Saiba Mais</p></router-link>
           </div>
         </div>
         <div class="cardMember">
@@ -57,7 +57,7 @@
             <h4>Henrique Chepli</h4>
           </div>
           <div class="buttonMember">
-            <router-link to="/henrique"><ion-icon name="enter-outline"></ion-icon></router-link>
+            <router-link to="/henrique"><p>Saiba Mais</p></router-link>
           </div>
         </div>
         <div class="cardMember">
@@ -68,7 +68,7 @@
             <h4>Larissa Lotin</h4>
           </div>
           <div class="buttonMember">
-            <router-link to="/larissa"><ion-icon name="enter-outline"></ion-icon></router-link>
+            <router-link to="/larissa"><p>Saiba Mais</p></router-link>
           </div>
         </div>
         <div class="cardMember">
@@ -79,7 +79,7 @@
             <h4>Murilo da Cruz Souza</h4>
           </div>
           <div class="buttonMember">
-            <router-link to="/murilo"><ion-icon name="enter-outline"></ion-icon></router-link>
+            <router-link to="/murilo"><p>Saiba Mais</p></router-link>
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@ main .indexMain .title {
   color: #fff;
 }
 
-main .indexMain .button button {
+main .indexMain .button {
   padding: 15px 50px;
   border-radius: 10px;
   background: #ecec53;
@@ -115,13 +115,14 @@ main .indexMain .button button {
   transition: all 0.5s ease-in-out;
 }
 
-main .indexMain .button:hover button {
+main .indexMain .button:hover {
   transform: scale(1.1) translateY(-10px);
   border: 1px solid transparent;
 }
 
-main .indexMain .button button ion-icon {
-  font-size: 15px;
+main .indexMain .button p{
+ font-size: 20px;
+ color: #0d0d0d;
 }
 
 main #indexGroup {
@@ -178,8 +179,9 @@ main #indexGroup .cardMember .buttonMember:hover {
   transform: translateY(-2.5px);
 }
 
-main #indexGroup .cardMember .buttonMember ion-icon {
+main #indexGroup .cardMember .buttonMember p{
   color: #0d0d0d;
+  font-size: 12px;
 }
 
 main #indexGroup .cardMember .imgMember img{
